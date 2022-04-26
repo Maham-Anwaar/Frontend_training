@@ -1,0 +1,44 @@
+.card-heading{
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+}
+
+.amount-price{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+
+.price{
+    color: #a2acba;
+    font-size: 11px;
+}
+
+
+.tick-amount{
+    display: flex;
+}
+
+.amount{
+    color: #5bbc79;
+    font-size: 11px;
+}
+
+.tick-img{
+    height: 16px;
+    width: 16px;
+}
+
+.card-button{
+    width: 96px;
+    height: 23px;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+    background-color: #1d1d26;
+    align-self: center;
+    color: #ffffff;
+    font-size: 11px;
+}
