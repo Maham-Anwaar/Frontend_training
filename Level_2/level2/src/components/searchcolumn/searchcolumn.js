@@ -4,7 +4,7 @@ import MenuGrid from "./menugrid";
 
 
 
-export default function SearchColumn({selectedOption, setCartItem, menuItems}){
+export default function SearchColumn({selectedOption, menuItems, setMenuItem, setSelectedMenu}){
     
     return (
         <div className="search-items">
@@ -14,7 +14,10 @@ export default function SearchColumn({selectedOption, setCartItem, menuItems}){
             </div>
 
             <div className="menu-grid">
-                <MenuGrid selectedOption={selectedOption} menuItems={menuItems} setCartItem={setCartItem}/>
+                <MenuGrid 
+                selectedOption={selectedOption} menuItems={menuItems} 
+                setMenuItem={setMenuItem} setSelectedMenu={setSelectedMenu}
+                />
             </div>
         </div>
     )

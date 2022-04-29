@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import './gridItem.css'
 
 export default function GridItem(props){
-
-    // const [CartItem, setCartItem] = useState([props.setCartItem])
     return(
         <div className="menu-grid-item">
         <div className="card-heading">{props.name}</div>
@@ -16,7 +14,15 @@ export default function GridItem(props){
             </div>
             <button className="card-button"
                 onClick={() => {
-                    props.setCartItem(props.id)
+                    
+                    let x = [...props.menuItems]
+                    x.map(item=>{
+                        if(item.id==props.id) {
+                            item.amount +=1;
+                            props.setMenuItem([...x]);
+                            props.setSelectedMenu(props.id)
+                        }
+                    })                
                 }}>
                 ADD TO CART 
             </button>

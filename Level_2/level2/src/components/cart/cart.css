@@ -8,7 +8,7 @@
 .cart-header{
     display: flex;
     justify-content: space-between;
-    border: 0.25px solid #cbd0d6;
+    border-bottom: 0.25px solid #cbd0d6;
     padding-left: 80px;
     padding-right: 88px;
     height: 52px;
@@ -28,12 +28,11 @@
 .cart-amount-border{
     width: 24px; 
     height: 24px;
-    margin: 14px 104px 10px 12px;
+    text-align: center;
+    margin: 14px 104px 10px 12px; 
     padding: 2px 8px;
     background-color: #5fc47e;
     border-radius: 50%;
-}
-.cart-amount{
     color: #ffffff;
     font-size: 14px;
 }

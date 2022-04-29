@@ -1,0 +1,11 @@
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 48px;
+    margin: 40px 96px 24px 72px;
+    padding: 13px 18.3px 15px 25.1px;
+    border-radius: 2px;
+    background-color: #edeff0;
+    font-size: 15px;
+}
