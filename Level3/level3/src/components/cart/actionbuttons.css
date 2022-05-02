@@ -1,0 +1,26 @@
+.button-containers{
+    display: flex;
+    margin: 40px 96px 24px 72px;
+    justify-content: space-between;
+    padding: 13px 18.3px 15px 25.1px;
+    height: 48px;
+}
+
+.cancel-button{
+  width: 192px;
+  height: 48px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+  border: solid 1px #ef5350;
+}
+
+.proceed-button{
+    width: 192px;
+    text-align: center;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04);
+    background-color: #5fc47e;
+    border: solid 1px #5fc47e;
+    color: #ffff;
+}
